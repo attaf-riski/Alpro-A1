@@ -15,11 +15,12 @@ int main()
 
 	// Algoritma
 	printf("Masukan angka yang ingin dirubah ke nama hari (1 - 7) : ");
+	//{ inisialisasi dengan meminta user nilai 1 – 7}
 	scanf("%d",&masukanKeyboard);
 
 	if (0 < masukanKeyboard && masukanKeyboard <= 7 )
 	{
-		switch (masukanKeyboard)
+		switch (masukanKeyboard) // { cek isi masukanKeyboard } 
 		{
 			case 1:
 				printf("Senin");
@@ -43,7 +44,7 @@ int main()
 				printf("Ahad");
 		}
 	}
-	else
+	else // { masukanKeyboard bukan antara 1 - 7 }
 	{
 		printf("Masukan nomor hari tidak tepat");
 	}
