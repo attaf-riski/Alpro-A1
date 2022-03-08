@@ -15,11 +15,12 @@ int main()
 
 	// Algoritma
 	printf("Masukan angka yang ingin dirubah ke nama bulan (1 - 12) : ");
+	// { inisialisasi dengan meminta user nilai 1 – 12}
 	scanf("%d",&masukanKeyboard);
 
 	if (0 < masukanKeyboard && masukanKeyboard <= 12 )
 	{
-		switch (masukanKeyboard)
+		switch (masukanKeyboard) // { cek isi masukanKeyboard } 
 		{
 			case 1:
 				printf("Januari");
@@ -58,7 +59,7 @@ int main()
 				printf("Desember");
 		}
 	}
-	else
+	else //{ masukanKeyboard bukan antara 1 - 12 }
 	{
 		printf("Masukan nomor bulan tidak tepat");
 	}
