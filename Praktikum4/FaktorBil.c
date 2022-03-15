@@ -1,7 +1,7 @@
 /*
 Nama File : FaktorBil.c
 Deskripsi : Mencari faktor-faktor suatu nilai integer
-Pembuat : Attaf Riski Putra Ramadhan
+Pembuat : Attaf Riski Putra Ramadhan -- 24060121120005
 Tanggal : 14 Maret 2022
 */
 
