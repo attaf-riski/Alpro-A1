@@ -1,7 +1,7 @@
 /*
 Nama File : CekPrima.c
 Deskripsi : Cek suatu nilai integer apakah bilangan prima
-Pembuat : Attaf Riski Putra Ramadhan
+Pembuat : Attaf Riski Putra Ramadhan -- 24060121120005
 Tanggal : 14 Maret 2022
 */
 
