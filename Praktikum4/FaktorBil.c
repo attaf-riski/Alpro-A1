@@ -11,23 +11,31 @@ Tanggal : 14 Maret 2022
 
 int main()
 {
-	//kamus
+	//KAMUS
 	int i; // counter
-	int N; // tampungan nilai
+	int N; // tampungan nilai yang akan dicari faktor-faktornya
 
-	//algoritma
-	printf("Masukan nilai N : ");
+	//ALGORITMA
+	printf("Masukan nilai N : "); // minta nilai
 	scanf("%d",&N);
-	printf("Faktor-faktor nilai %d : ",N);
-	for(int i = 1;i<=N;i++) // 1 -- N
+	// dua kasus
+	if(N>0)
 	{
-		//satu kasus
-		if(N%i == 0) // jika N mod i == 0, i adl faktor N
+		printf("Faktor-faktor nilai %d : ",N);
+		for(i = 1;i<=N;i++) // 1 -- N
 		{
-			printf("%d, ",i);
-		}
-
+			//satu kasus
+			if(N%i == 0) // jika N mod i == 0, i adl faktor N
+			{
+				printf("%d, ",i);
+			}
+		}	
 	}
+	else // nilai N tidak > 0
+	{
+		printf("N harus lebih dari 0");
+	}
+	
 
 	return 0;
 }
